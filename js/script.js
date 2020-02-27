@@ -75,7 +75,7 @@ inputV.addEventListener('input', function (evt) {
     } else if (this.value == "") {
         p.innerHTML = "Output :";
         p.style.color = "black";
-        output(`Whene You want, we can start <b>;)</b>`);
+        output(`When You want, we can start <b>;)</b>`);
     }
     else {
         p.innerHTML = "Warning !";
