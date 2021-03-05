@@ -1,8 +1,8 @@
 # Description
-JSON Reader
-is the private programming solution
-for proffessional usage of pretty format of JSON value.
-Made by Pamento in february 2020.
+JSON Reader licenced under the [MIT license](LICENSE)
+This is the solution of pretty format of JSON value (basicaly).
+And modify valid Json input into text output in nested numbered list format.
+The last one is the DOM based list of p tag with span nested in.
 
 # Resource:
 ## synthax color of JSON:

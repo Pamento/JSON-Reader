@@ -16,6 +16,18 @@
     <section class="mainSection">
         <div class="formBox">
             <h1>JSON Reader</h1>
+            <div class="options">
+                <h3>Options:</h3>
+                <div>
+                    <input type="checkbox" name="check" id="jsonColor" value="a" onclick="onlyOne(this)" checked>
+                    <label for="jsonColor">Json Colored</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="check" id="docNumbers" value="b" onclick="onlyOne(this)">
+                    <label for="docNumbers">To txt numered list</label>
+                </div>
+
+            </div>
             <form class="form">
                 <input id="jison" type="text" placeholder="JSON input ...">
             </form>
